@@ -21,8 +21,8 @@ sudo apt install -y iperf3 python3-pip tc
 pip3 install matplotlib pandas numpy
 
 # Clone this repository:
-bashgit clone https://github.com/yourusername/tcp-congestion-control-comparison.git
-cd tcp-congestion-control-comparison
+bashgit clone https://github.com/abhaysai/Congestion_Control.git
+cd Congestion_Control
 
 
 # Running the Experiments
@@ -78,7 +78,7 @@ Vegas: Most latency-friendly with the lowest loss rates but typically at the cos
 
 Permission Issues: Most commands require root privileges. Use sudo where necessary.
 Congestion Control Not Available: Check available algorithms with:
-bashcat /proc/sys/net/ipv4/tcp_available_congestion_control
+bashcat /proc/sys/net/ipv4/Congestion_Control
 You may need to load kernel modules:
 bashsudo modprobe tcp_bbr
 sudo modprobe tcp_vegas
